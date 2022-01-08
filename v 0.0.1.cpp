@@ -8,7 +8,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(TRIGGER, OUTPUT);
   pinMode(ECHO, INPUT);
-  pinMode(B, OUTPUT);
+  pinMode(led_pin, OUTPUT);
 }
  
 void loop() {
